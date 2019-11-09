@@ -1,0 +1,31 @@
+0.00 werir  cunku donguyu 0 dan baslatm?ss?nn. senin icn bu program? yazd?m umar?m ?s?n? gorur(degisken tipi olaraka  int  kullan?rsan daha ?? olur  bence) 
+
+
+// us alma 
+#include <stdio.h> 
+#include <conio.h> 
+int x,i; 
+
+int us_al (int a,int b){ 
+    x=1; 
+
+for (i=1; i<=b; i++) 
+
+x*=a; 
+
+return x; 
+} 
+
+int main() 
+{ 
+     
+int a1,b1,us_sonuc; 
+printf(" pozitif bir sayi giriniz"); 
+scanf("%i",&a1); 
+printf("ussu   giriniz"); 
+scanf("%i",&b1); 
+us_sonuc= us_al(a1,b1); 
+printf("%i sayisinin %.i . ussu =%i",a1,b1,us_sonuc); 
+getch(); 
+return 0; 
+}
